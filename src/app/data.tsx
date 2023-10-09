@@ -1,34 +1,48 @@
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Tic Tac Toe",
+      subtitle: "Built in React",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        "Just a little tic-tac-toe game made for fun. This was made using HTML, CSS, and JavaScript. Nothing special.",
+      image: "./TicTacToe.png",
+      link: "https://tic-tac-toe-six-rho.vercel.app/",
     },
     {
-        title: "React Tracks",
-        subtitle: "React and Python",
+        title: "AI content Gen",
+        subtitle: "Open AI + React",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-2.gif",
-        link: "https://reedbarger.com",
+          "This is a small project I created using React for the front-end development and OpenAI’s API to create AI-generated content.",
+        image: "./AI-Content-Gen-Mockup.png",
+        link: "https://ai-content-gen.vercel.app/",
       },
       {
-        title: "DevChat",
-        subtitle: "React and Firebase",
+        title: "Next Dorm",
+        subtitle: "Senior Capstone Project",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-3.gif",
-        link: "https://jsbootcamp.com",
+          "NextDorm is a web application geared toward streamlining the first-year experience for IU Freshmen and students living in dorms.",
+        image: "./NextDormLogin.png",
+        link: "https://zion.luddy.indiana.edu/info-capstone-2022/next-dorm#project",
       },
       {
-        title: "Epic Todo App",
-        subtitle: "React Hooks",
+        title: "Xtern Xpress",
+        subtitle: "Xtern Internprogram",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-4.gif",
-        link: "https://pythonbootcamp.com",
+          "Xtern Xpress was born of a design challenge for applying for an internship program through Techpoint Indy.",
+        image: "./XpressMockup.png",
+        link: "https://techpoint.org/xtern/",
+      },
+    ];
+export const skills = [
+      {
+        skill: "React",
+      },
+      {
+        skill: "Angular",
+      },
+      {
+        skill: "Typescript",
+      },
+      {
+        skill: "SQL",
       },
     ];

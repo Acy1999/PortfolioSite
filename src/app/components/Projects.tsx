@@ -1,4 +1,4 @@
-import {CodeBracketIcon} from "@heroicons/react/24/outline"
+import {CodeBracketIcon} from "@heroicons/react/24/solid"
 import React from "react";
 import { projects } from "../data";
 
@@ -13,9 +13,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Here are a list of personal projects i have built in the past. Although I cannot list all of my work here, feel free to reach out and ask about my current work at Deloitte Consulting for more information.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
