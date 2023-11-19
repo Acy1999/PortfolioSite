@@ -10,7 +10,7 @@ export default function Projects() {
         <CodeBracketIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             {" "}
-            Apps I've Built
+            Apps I&apos;ve Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Here are a list of personal projects i have built in the past. Although I cannot list all of my work here, feel free to reach out and ask about my current work at Deloitte Consulting for more information.
