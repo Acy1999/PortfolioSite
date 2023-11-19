@@ -6,10 +6,10 @@ export default function About(){
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Tony
+            Hi, I&apos;m Tony
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am currently a second year analyst at Deloitte Consulting LLP working in the firm's Government and Public Sector Practice. My focus in the firm is on Customer Strategy and Applied Design. 
+            I am currently a second year analyst at Deloitte Consulting LLP working in the firm&apos;s Government and Public Sector Practice. My focus in the firm is on Customer Strategy and Applied Design. 
           </p>
           <div className="flex justify-center">
             <a
