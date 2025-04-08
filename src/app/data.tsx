@@ -30,7 +30,7 @@ export const projects = [
     title: "AI content Gen",
     subtitle: "Open AI + React",
     description:
-      "This is a small project I created using React for the front-end development and OpenAI’s API to create AI-generated content.",
+      "This is a small project I created using React for the front-end development and OpenAI's API to create AI-generated content.",
     image: "/./AI-Content-Gen-Mockup.png",
     link: "https://ai-content-gen.vercel.app/",
     bodyCopy: [""],

@@ -14,8 +14,10 @@ export default async function ProjectPage({
 }: {
   params: { slug: string };
 }) {
-  // Make the params.slug usage asynchronous
-  const slug = await params.slug;
+  // Await the entire params object before using it
+  const resolvedParams = await Promise.resolve(params);
+  const slug = resolvedParams.slug;
+
   const project = projects.find((p) => p.slug === slug);
 
   if (!project) return notFound();
