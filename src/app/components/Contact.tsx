@@ -133,7 +133,7 @@ export default function Contact() {
 
           {status === "success" && (
             <p className="mt-4 text-green-500">
-              Thank you for your message! I'll get back to you soon.
+              Thank you for your message! I&apos;ll get back to you soon.
             </p>
           )}
 
