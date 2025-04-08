@@ -9,15 +9,16 @@ export async function generateStaticParams() {
   }));
 }
 
+// This is the recommended pattern for handling dynamic route parameters
 export default async function ProjectPage({
   params,
 }: {
   params: { slug: string };
 }) {
-  // Await the entire params object before using it
-  const resolvedParams = await Promise.resolve(params);
-  const slug = resolvedParams.slug;
+  // Properly await the params object
+  const { slug } = await params;
 
+  // Find the project with the matching slug
   const project = projects.find((p) => p.slug === slug);
 
   if (!project) return notFound();
@@ -72,7 +73,7 @@ export default async function ProjectPage({
               </p>
             ))}
             <h2 className="text-xl font-bold dark:text-white text-gray-800 mt-10 mb-4">
-              Technologies Used
+              Technologies Used:
             </h2>
 
             <div className="flex flex-wrap gap-2 mt-6 pb-6">
@@ -90,4 +91,11 @@ export default async function ProjectPage({
       </div>
     </main>
   );
+}
+
+// Separate async function to handle data fetching
+async function getProject(slug: string) {
+  // In a real app, this might be a database query
+  // For now, we'll just find the project in our static data
+  return projects.find((p) => p.slug === slug);
 }
