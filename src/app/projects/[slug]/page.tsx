@@ -2,6 +2,13 @@ import { notFound } from "next/navigation";
 import { projects } from "@/app/data";
 import Image from "next/image";
 import Navbar from "@/app/components/Navbar";
+// Define the correct type for the params
+type ProjectPageParams = {
+  params: {
+    slug: string;
+  };
+  searchParams?: { [key: string]: string | string[] | undefined };
+};
 
 export async function generateStaticParams() {
   return projects.map((project) => ({
@@ -10,11 +17,7 @@ export async function generateStaticParams() {
 }
 
 // This is the recommended pattern for handling dynamic route parameters
-export default async function ProjectPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default async function ProjectPage({ params }: ProjectPageParams) {
   // Properly await the params object
   const { slug } = await params;
 
