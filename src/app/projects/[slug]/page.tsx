@@ -43,13 +43,12 @@ export default async function ProjectPage(props: {
         </div>
         <div className="relative overflow-hidden pt-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <Image
+            <img
               src={project.image}
               alt={project.description}
               width={2432}
               height={1442}
               className="mb-[-12%] rounded-xl shadow-2xl ring-1 dark:ring-white/10 ring-gray-900"
-              priority // Keep priority for Next 15 optimization
             />
             <div aria-hidden="true" className="relative">
               <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t dark:from-gray-900 from-white pt-[7%]" />
