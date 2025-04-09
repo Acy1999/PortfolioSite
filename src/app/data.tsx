@@ -5,7 +5,7 @@ export const projects = [
     subtitle: "A convenient place to store code snippets",
     description:
       "SnipSave was acquired in mid 2023 by a close friend who asked me to update the branding, update design, as well as be a front end developer.",
-    image: "/./snipsave-screenshot.png",
+    image: "/snipsave-screenshot.png",
     link: "https://snipsave.com/",
     bodyheader: "Built for Speed. Rebuilt for You.",
     bodyCopy: [
@@ -21,7 +21,7 @@ export const projects = [
     subtitle: "Built in React",
     description:
       "Just a little tic-tac-toe game made for fun. This was made using HTML, CSS, and JavaScript. Nothing special.",
-    image: "/./TicTacToe.png",
+    image: "/TicTacToe.png",
     link: "https://tic-tac-toe-six-rho.vercel.app/",
     bodyheader: "Tic Tac Toe: A Pure HTML, CSS, and JavaScript Implementation",
     bodyCopy: [
@@ -36,7 +36,7 @@ export const projects = [
     subtitle: "Open AI + React",
     description:
       "This is a small project I created using React for the front-end development and OpenAI's API to create AI-generated content.",
-    image: "/./AI-Content-Gen-Mockup.png",
+    image: "/AI-Content-Gen-Mockup.png",
     link: "https://ai-content-gen.vercel.app/",
     bodyheader: "Generation At Your Fingertips",
     bodyCopy: [
@@ -52,7 +52,7 @@ export const projects = [
     subtitle: "Senior Capstone Project",
     description:
       "NextDorm is a web application geared toward streamlining the first-year experience for IU Freshmen and students living in dorms.",
-    image: "/./NextDormLogin.png",
+    image: "/NextDormLogin.png",
     link: "https://zion.luddy.indiana.edu/info-capstone-2022/next-dorm#project",
     bodyheader: "IU Capstone Project",
     bodyCopy: [
@@ -67,7 +67,7 @@ export const projects = [
     subtitle: "Xtern Internprogram",
     description:
       "Xtern Xpress was born of a design challenge for applying for an internship program through Techpoint Indy.",
-    image: "/./XpressMockup.png",
+    image: "/XpressMockup.png",
     link: "https://techpoint.org/xtern/",
     bodyheader: "Techpoint Design Competition",
     bodyCopy: [

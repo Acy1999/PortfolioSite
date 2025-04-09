@@ -25,12 +25,11 @@ export default async function ProjectPage(props: {
   if (!project) {
     notFound();
   }
-  console.log("Project Image Link: ", project.image);
+
   // Render the project page with the fetched data
   return (
     <main>
       <Navbar />
-
       <div className="dark:bg-gray-900 bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl sm:text-center">
