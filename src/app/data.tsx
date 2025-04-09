@@ -5,7 +5,7 @@ export const projects = [
     subtitle: "A convenient place to store code snippets",
     description:
       "SnipSave was acquired in mid 2023 by a close friend who asked me to update the branding, update design, as well as be a front end developer.",
-    image: "/./snipsave-screenshot.png",
+    image: "./snipsave-screenshot.png",
     link: "https://snipsave.com/",
     bodyheader: "Built for Speed. Rebuilt for You.",
     bodyCopy: [
