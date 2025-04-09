@@ -25,7 +25,7 @@ export default async function ProjectPage(props: {
   if (!project) {
     notFound();
   }
-
+  console.log("Project Image Link: ", project.image);
   // Render the project page with the fetched data
   return (
     <main>
