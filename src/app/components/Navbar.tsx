@@ -48,7 +48,7 @@ export default function Navbar() {
             Skills
           </a>
           <a
-            href="#contact"
+            href="/#contact"
             className="md:hidden inline-flex items-center dark:bg-gray-800 bg-white border-0 py-1 px-3 focus:outline-none dark:hover:bg-gray-700 hover:bg-gray-700 hover:text-white rounded text-base mt-2"
           >
             Work With Me
@@ -57,7 +57,7 @@ export default function Navbar() {
         </nav>
 
         <a
-          href="#contact"
+          href="/#contact"
           className="hidden md:inline-flex items-center dark:bg-gray-800 bg-white border-0 py-1 px-3 focus:outline-none dark:hover:bg-gray-700 hover:bg-gray-700 hover:text-white rounded text-base mt-4 md:mt-0"
         >
           Work With Me

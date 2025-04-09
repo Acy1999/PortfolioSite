@@ -11,11 +11,9 @@ export async function generateStaticParams() {
 }
 
 // This component fetches and displays a single project based on the slug
-export default async function ProjectPage(
-  props: {
-    params: Promise<{ slug: string }>; // The params object itself is not a promise here
-  }
-) {
+export default async function ProjectPage(props: {
+  params: Promise<{ slug: string }>; // The params object itself is not a promise here
+}) {
   const params = await props.params;
   // Get the slug from the params
   const slug = params.slug;
@@ -83,6 +81,12 @@ export default async function ProjectPage(
                 {paragraph}
               </p>
             ))}
+            <a
+              href={project.link}
+              className="inline-flex text-white bg-emerald-500 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg"
+            >
+              Check it out Here
+            </a>
             <h2 className="text-xl font-bold dark:text-white text-gray-800 mt-10 mb-4">
               Technologies Used:
             </h2>
