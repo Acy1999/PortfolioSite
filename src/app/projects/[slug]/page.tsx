@@ -11,11 +11,12 @@ export async function generateStaticParams() {
 }
 
 // This component fetches and displays a single project based on the slug
-export default async function ProjectPage({
-  params,
-}: {
-  params: { slug: string }; // The params object itself is not a promise here
-}) {
+export default async function ProjectPage(
+  props: {
+    params: Promise<{ slug: string }>; // The params object itself is not a promise here
+  }
+) {
+  const params = await props.params;
   // Get the slug from the params
   const slug = params.slug;
 
